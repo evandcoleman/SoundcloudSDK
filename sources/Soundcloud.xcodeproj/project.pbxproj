@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A8B1C7235B6B7B00D88B42 /* Soundcloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0714121DD41BB500993835 /* Soundcloud.swift */; };
+		20A8B1C8235B6B7B00D88B42 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644B0BE1AEBC76E00D3B495 /* URLExtension.swift */; };
+		20A8B1C9235B6B7B00D88B42 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656CE871A9CF0A800319B94 /* User.swift */; };
+		20A8B1CA235B6B7B00D88B42 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465308A91AB5C73700766A62 /* Request.swift */; };
+		20A8B1CB235B6B7B00D88B42 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641ECB11BD7F79900D0D315 /* APIResponse.swift */; };
+		20A8B1CC235B6B7B00D88B42 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656CE8D1A9CF0DC00319B94 /* App.swift */; };
+		20A8B1CD235B6B7B00D88B42 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465877181BD394AA0080F05A /* SearchQuery.swift */; };
+		20A8B1CE235B6B7B00D88B42 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656CE891A9CF0BE00319B94 /* Track.swift */; };
+		20A8B1CF235B6B7B00D88B42 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656CE8F1A9D098300319B94 /* Enums.swift */; };
+		20A8B1D0235B6B7B00D88B42 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655B81C1C88B7E2003B378E /* Activity.swift */; };
+		20A8B1D1235B6B7B00D88B42 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644B0BC1AEBC58100D3B495 /* DictionaryExtension.swift */; };
+		20A8B1D2235B6B7B00D88B42 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461FA2CB1AFBC6DD00F585C8 /* StringExtension.swift */; };
+		20A8B1D3235B6B7B00D88B42 /* ImageURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4626792D1AED041B003771C9 /* ImageURLs.swift */; };
+		20A8B1D4235B6B7B00D88B42 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4637FD891B30A39700286C14 /* Comment.swift */; };
+		20A8B1D5235B6B7B00D88B42 /* SoundcloudWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1CC341B5A38210043381B /* SoundcloudWebViewController.swift */; };
+		20A8B1D6235B6B7B00D88B42 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656CE8B1A9CF0CD00319B94 /* Playlist.swift */; };
+		20A8B1D7235B6B7B00D88B42 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2CED31D11CED4005DA1FB /* DataExtension.swift */; };
+		20A8B1D8235B6B7B00D88B42 /* PlaylistRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464565D21B73BCC500839812 /* PlaylistRequest.swift */; };
+		20A8B1D9235B6B7B00D88B42 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644B0C21AEBD0FA00D3B495 /* UserRequest.swift */; };
+		20A8B1DA235B6B7B00D88B42 /* TrackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644B0C01AEBD01900D3B495 /* TrackRequest.swift */; };
+		20A8B1DB235B6B7B00D88B42 /* SouncloudClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07140D1DD41B9600993835 /* SouncloudClient.swift */; };
+		20A8B1E8235B6B9D00D88B42 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A8B1E6235B6B9D00D88B42 /* KeychainAccess.framework */; };
+		20A8B1E9235B6B9D00D88B42 /* OnePasswordExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A8B1E7235B6B9D00D88B42 /* OnePasswordExtension.framework */; };
+		20A8B1EA235B6BB000D88B42 /* Soundcloud iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 462679661AED57FC003771C9 /* Soundcloud iOS.h */; };
 		2C07140E1DD41B9600993835 /* SouncloudClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07140D1DD41B9600993835 /* SouncloudClient.swift */; };
 		2C07140F1DD41B9600993835 /* SouncloudClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07140D1DD41B9600993835 /* SouncloudClient.swift */; };
 		2C0714101DD41B9600993835 /* SouncloudClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C07140D1DD41B9600993835 /* SouncloudClient.swift */; };
@@ -146,6 +170,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		20A8B1BE235B6B5A00D88B42 /* Soundcloud_iOS_Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soundcloud_iOS_Carthage.h; sourceTree = "<group>"; };
+		20A8B1BF235B6B5A00D88B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Soundcloud iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A8B1E5235B6B7B00D88B42 /* Soundcloud iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Soundcloud iOS copy-Info.plist"; path = "/Users/evan/Projects/GitHub/edc1591/SoundcloudSDK/sources/Soundcloud iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		20A8B1E6235B6B9D00D88B42 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = ../Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		20A8B1E7235B6B9D00D88B42 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OnePasswordExtension.framework; path = ../Carthage/Build/iOS/OnePasswordExtension.framework; sourceTree = "<group>"; };
 		2750B52054D3F9405C3CC849 /* Pods_Soundcloud_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soundcloud_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C07140D1DD41B9600993835 /* SouncloudClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SouncloudClient.swift; sourceTree = "<group>"; };
 		2C0714121DD41BB500993835 /* Soundcloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soundcloud.swift; sourceTree = "<group>"; };
@@ -209,6 +239,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20A8B1DC235B6B7B00D88B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B1E8235B6B9D00D88B42 /* KeychainAccess.framework in Frameworks */,
+				20A8B1E9235B6B9D00D88B42 /* OnePasswordExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		460388E91C3EDE5C00997DC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +291,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A8B1BD235B6B5A00D88B42 /* Soundcloud iOS Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				20A8B1BE235B6B5A00D88B42 /* Soundcloud_iOS_Carthage.h */,
+				20A8B1BF235B6B5A00D88B42 /* Info.plist */,
+			);
+			path = "Soundcloud iOS Carthage";
+			sourceTree = "<group>";
+		};
 		460388EE1C3EDE5C00997DC8 /* Soundcloud OSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,9 +401,11 @@
 				460388EE1C3EDE5C00997DC8 /* Soundcloud OSX */,
 				4656CE791A9CF05600319B94 /* SoundcloudTests */,
 				460EEF881B5A4B1A004444C6 /* SoundcloudAppTest */,
+				20A8B1BD235B6B5A00D88B42 /* Soundcloud iOS Carthage */,
 				4656CE6B1A9CF05600319B94 /* Products */,
 				95B39F142FBA3FDAB5F40C70 /* Pods */,
 				9A5A7926C4715BAE62B4BD5B /* Frameworks */,
+				20A8B1E5235B6B7B00D88B42 /* Soundcloud iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -367,6 +417,7 @@
 				460EEF871B5A4B1A004444C6 /* SoundcloudAppTest.app */,
 				46263CAD1C3D894000FA0E03 /* Soundcloud.framework */,
 				460388ED1C3EDE5C00997DC8 /* Soundcloud.framework */,
+				20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -440,6 +491,8 @@
 		9A5A7926C4715BAE62B4BD5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20A8B1E6235B6B9D00D88B42 /* KeychainAccess.framework */,
+				20A8B1E7235B6B9D00D88B42 /* OnePasswordExtension.framework */,
 				2750B52054D3F9405C3CC849 /* Pods_Soundcloud_OSX.framework */,
 				F7B30D2BEBAD88DB9815D6B6 /* Pods_Soundcloud_iOS.framework */,
 				BC5368B65C772E86D828B326 /* Pods_SoundcloudAppTest.framework */,
@@ -451,6 +504,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		20A8B1DE235B6B7B00D88B42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B1EA235B6BB000D88B42 /* Soundcloud iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		460388EA1C3EDE5C00997DC8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +538,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		20A8B1C4235B6B7B00D88B42 /* Soundcloud iOS Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A8B1E1235B6B7B00D88B42 /* Build configuration list for PBXNativeTarget "Soundcloud iOS Carthage" */;
+			buildPhases = (
+				20A8B1C6235B6B7B00D88B42 /* Sources */,
+				20A8B1DC235B6B7B00D88B42 /* Frameworks */,
+				20A8B1DE235B6B7B00D88B42 /* Headers */,
+				20A8B1DF235B6B7B00D88B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soundcloud iOS Carthage";
+			productName = SoundcloudSDK;
+			productReference = 20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		460388EC1C3EDE5C00997DC8 /* Soundcloud OSX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460388F41C3EDE5C00997DC8 /* Build configuration list for PBXNativeTarget "Soundcloud OSX" */;
@@ -615,6 +694,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -628,11 +708,19 @@
 				460388EC1C3EDE5C00997DC8 /* Soundcloud OSX */,
 				4656CE741A9CF05600319B94 /* SoundcloudTests */,
 				460EEF861B5A4B1A004444C6 /* SoundcloudAppTest */,
+				20A8B1C4235B6B7B00D88B42 /* Soundcloud iOS Carthage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20A8B1DF235B6B7B00D88B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		460388EB1C3EDE5C00997DC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -827,6 +915,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20A8B1C6235B6B7B00D88B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A8B1C7235B6B7B00D88B42 /* Soundcloud.swift in Sources */,
+				20A8B1C8235B6B7B00D88B42 /* URLExtension.swift in Sources */,
+				20A8B1C9235B6B7B00D88B42 /* User.swift in Sources */,
+				20A8B1CA235B6B7B00D88B42 /* Request.swift in Sources */,
+				20A8B1CB235B6B7B00D88B42 /* APIResponse.swift in Sources */,
+				20A8B1CC235B6B7B00D88B42 /* App.swift in Sources */,
+				20A8B1CD235B6B7B00D88B42 /* SearchQuery.swift in Sources */,
+				20A8B1CE235B6B7B00D88B42 /* Track.swift in Sources */,
+				20A8B1CF235B6B7B00D88B42 /* Enums.swift in Sources */,
+				20A8B1D0235B6B7B00D88B42 /* Activity.swift in Sources */,
+				20A8B1D1235B6B7B00D88B42 /* DictionaryExtension.swift in Sources */,
+				20A8B1D2235B6B7B00D88B42 /* StringExtension.swift in Sources */,
+				20A8B1D3235B6B7B00D88B42 /* ImageURLs.swift in Sources */,
+				20A8B1D4235B6B7B00D88B42 /* Comment.swift in Sources */,
+				20A8B1D5235B6B7B00D88B42 /* SoundcloudWebViewController.swift in Sources */,
+				20A8B1D6235B6B7B00D88B42 /* Playlist.swift in Sources */,
+				20A8B1D7235B6B7B00D88B42 /* DataExtension.swift in Sources */,
+				20A8B1D8235B6B7B00D88B42 /* PlaylistRequest.swift in Sources */,
+				20A8B1D9235B6B7B00D88B42 /* UserRequest.swift in Sources */,
+				20A8B1DA235B6B7B00D88B42 /* TrackRequest.swift in Sources */,
+				20A8B1DB235B6B7B00D88B42 /* SouncloudClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		460388E81C3EDE5C00997DC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -991,6 +1107,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		20A8B1E2235B6B7B00D88B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4838B96D3FF543D051B1736A /* Pods-Soundcloud iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = "Soundcloud iOS copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.delannoyk.Soundcloud-iOS";
+				PRODUCT_NAME = "Soundcloud iOS";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20A8B1E3235B6B7B00D88B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0305B8F05D0E5CE358B4E62 /* Pods-Soundcloud iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
+				INFOPLIST_FILE = "Soundcloud iOS copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.delannoyk.Soundcloud-iOS";
+				PRODUCT_NAME = "Soundcloud iOS";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		460388F21C3EDE5C00997DC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36046970757CE2580A874E20 /* Pods-Soundcloud OSX.debug.xcconfig */;
@@ -1179,6 +1337,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1221,6 +1380,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1307,6 +1467,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20A8B1E1235B6B7B00D88B42 /* Build configuration list for PBXNativeTarget "Soundcloud iOS Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A8B1E2235B6B7B00D88B42 /* Debug */,
+				20A8B1E3235B6B7B00D88B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		460388F41C3EDE5C00997DC8 /* Build configuration list for PBXNativeTarget "Soundcloud OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -11,6 +11,10 @@ import Foundation
     import KeychainAccess
 #endif
 
+#if os(iOS)
+    import UIKit
+#endif
+
 // MARK: - Errors
 
 public struct BasicError {
