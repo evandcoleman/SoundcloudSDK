@@ -172,7 +172,7 @@
 /* Begin PBXFileReference section */
 		20A8B1BE235B6B5A00D88B42 /* Soundcloud_iOS_Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Soundcloud_iOS_Carthage.h; sourceTree = "<group>"; };
 		20A8B1BF235B6B5A00D88B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Soundcloud iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A8B1E4235B6B7B00D88B42 /* Soundcloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soundcloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A8B1E5235B6B7B00D88B42 /* Soundcloud iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Soundcloud iOS copy-Info.plist"; path = "/Users/evan/Projects/GitHub/edc1591/SoundcloudSDK/sources/Soundcloud iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		20A8B1E6235B6B9D00D88B42 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = ../Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
 		20A8B1E7235B6B9D00D88B42 /* OnePasswordExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OnePasswordExtension.framework; path = ../Carthage/Build/iOS/OnePasswordExtension.framework; sourceTree = "<group>"; };
@@ -417,7 +417,7 @@
 				460EEF871B5A4B1A004444C6 /* SoundcloudAppTest.app */,
 				46263CAD1C3D894000FA0E03 /* Soundcloud.framework */,
 				460388ED1C3EDE5C00997DC8 /* Soundcloud.framework */,
-				20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */,
+				20A8B1E4235B6B7B00D88B42 /* Soundcloud.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -553,7 +553,7 @@
 			);
 			name = "Soundcloud iOS Carthage";
 			productName = SoundcloudSDK;
-			productReference = 20A8B1E4235B6B7B00D88B42 /* Soundcloud iOS.framework */;
+			productReference = 20A8B1E4235B6B7B00D88B42 /* Soundcloud.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		460388EC1C3EDE5C00997DC8 /* Soundcloud OSX */ = {
@@ -1122,7 +1122,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.delannoyk.Soundcloud-iOS";
-				PRODUCT_NAME = "Soundcloud iOS";
+				PRODUCT_NAME = Soundcloud;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1142,7 +1142,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.delannoyk.Soundcloud-iOS";
-				PRODUCT_NAME = "Soundcloud iOS";
+				PRODUCT_NAME = Soundcloud;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

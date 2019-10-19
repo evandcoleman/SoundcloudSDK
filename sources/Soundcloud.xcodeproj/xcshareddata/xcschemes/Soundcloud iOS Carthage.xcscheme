@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "20A8B1C4235B6B7B00D88B42"
-               BuildableName = "Soundcloud iOS Carthage.framework"
+               BuildableName = "Soundcloud iOS.framework"
                BlueprintName = "Soundcloud iOS Carthage"
                ReferencedContainer = "container:Soundcloud.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "20A8B1C4235B6B7B00D88B42"
-            BuildableName = "Soundcloud iOS Carthage.framework"
+            BuildableName = "Soundcloud iOS.framework"
             BlueprintName = "Soundcloud iOS Carthage"
             ReferencedContainer = "container:Soundcloud.xcodeproj">
          </BuildableReference>
