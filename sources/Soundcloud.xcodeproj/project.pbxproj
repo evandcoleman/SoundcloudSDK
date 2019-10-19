@@ -1109,7 +1109,6 @@
 /* Begin XCBuildConfiguration section */
 		20A8B1E2235B6B7B00D88B42 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4838B96D3FF543D051B1736A /* Pods-Soundcloud iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1118,7 +1117,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
-				INFOPLIST_FILE = "Soundcloud iOS copy-Info.plist";
+				INFOPLIST_FILE = "Soundcloud iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
@@ -1131,7 +1130,6 @@
 		};
 		20A8B1E3235B6B7B00D88B42 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0305B8F05D0E5CE358B4E62 /* Pods-Soundcloud iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1140,7 +1138,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
-				INFOPLIST_FILE = "Soundcloud iOS copy-Info.plist";
+				INFOPLIST_FILE = "Soundcloud iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "be.delannoyk.Soundcloud-iOS";
